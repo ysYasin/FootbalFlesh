@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&family=Montserrat:ital@1&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ----------------------
+banner styling 
+-------coded by ys coder-- */
+.banner-head {
+    width: 85vw;
+    margin: 3em auto 4em;
+    background: #161616;
+    border-radius: 3em;
+    color: aliceblue;
+}
+
+.baner {
+    display: flex;
+    gap: 1em;
+}
+
+.baner-text {
+    display: grid;
+    width: 50%;
+    padding: 3em 5em 1em;
+
+}
+
+.baner-text h1 {
+    font-size: 5em;
+}
+
+.baner-text p {
+    margin: 2em 0;
+    color: #eeeeee;
+    line-height: 1.5em;
+}
+
+.baner-text button {
+    width: 12em;
+    word-spacing: 0.4em;
+    font-size: 1em;
+    padding: 1em 0;
+    margin: 1.2em 0;
+    font-weight: 700;
+    background: red;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.banner-img img {
+    width: 37em;
+}
+
+/* blog-and-other section one styling */
+.side-nave-and-blog-box {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 20em 1fr;
+    gap: 1em;
+    margin: 5em auto;
+}
+
+/*--------by ys coder-------
+ side buttons styling
+ ---------------------------- */
+.side-nave {
+    background: #161616;
+    display: grid;
+    gap: 1em;
+    padding: 2em;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.inpt {
+    outline: none;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 1em 2em;
+}
+
+#highlight-button {
+    background: red;
+    color: #fff;
+
+}
+
+/* blog-cards styling */
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+}
+
+.blog-item {
+    display: grid;
+    box-shadow: 0px 0px 6px #00000038;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+.flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.flag1 img {
+    width: 6em;
+}
+
+.flag2 img {
+    width: 6em;
+}
+
+.vs {
+    font-size: 2em;
+}
+
+.match-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.match-text p {
+    color: gray;
+}
+
+/* fotter styling */
+footer {
+    height: 24em;
+
+    background-color: #161616;
+    color: #eeeeee;
+}
+
+.goal {
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #80808082;
+}
+
+.goal h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+.ft-boxes {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
