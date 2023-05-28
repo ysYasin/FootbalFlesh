@@ -1,0 +1,75 @@
+@media only screen and (max-width:992px) and (min-width:689px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .baner {
+        overflow: hidden;
+    }
+
+    .banner-img img {
+        width: 20em;
+        position: relative;
+        top: 3.5em;
+    }
+
+    .baner-text {
+        width: 100%;
+        padding: 3em 0em 1em 2em;
+        grid-row-gap: 4em;
+    }
+
+    .baner-text h1 {
+        font-size: 3em;
+        position: relative;
+    }
+
+    .baner-text h1::after {
+        content: "Contrary to populer belief. is not simply rendom text";
+        position: absolute;
+        right: 0em;
+        bottom: -3em;
+        font-size: .5em;
+        font-weight: 100;
+        color: #e7e7e7;
+    }
+
+    .baner-text p {
+        display: none;
+    }
+
+    /* section styling */
+    .side-nave-and-blog-box {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .side-nave {
+        grid-template-columns: repeat(3, 1fr);
+        background: #ffffffff;
+        padding: 0;
+    }
+
+    .inpt {
+        box-shadow: 2px 2px 10px #bababa;
+    }
+
+    .blog {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-item:nth-child(9) {
+        display: none;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    .ft-boxes {
+        gap: 1em;
+    }
+}
