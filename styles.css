@@ -91,15 +91,23 @@ banner styling
     border: none;
     background: #fff;
     border-radius: 5px;
+    padding: 1em 2em;
+}
+
+.inpt a {
+    text-decoration: none;
+    color: #161616;
     font-weight: 600;
     font-size: 1em;
-    padding: 1em 2em;
 }
 
 #highlight-button {
     background: red;
-    color: #fff;
 
+}
+
+#highlight-button a {
+    color: #fff;
 }
 
 /* blog-cards styling */
